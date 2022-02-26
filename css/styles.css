@@ -10,6 +10,8 @@ body {
 .indexParagraph {
   color: #0f0e0e;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .button {
   background-color: black;

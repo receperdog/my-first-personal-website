@@ -7,6 +7,11 @@ body {
   padding-bottom: 50px;
   padding-left: 80px;
 }
+.nameHeading {
+  display: inline-block;
+  position: absolute;
+  margin: 15% 10% 10% 5%;
+}
 .aboutMe {
   margin: 2% auto auto auto;
   text-align: center;
@@ -14,13 +19,12 @@ body {
   border: 1px dotted gray;
   border-width: 6px;
 }
-.aboutMe:hover{
+.aboutMe:hover {
   background-color: black;
   color: white;
   padding: 2%;
   border: 1px dotted white;
   border-width: 6px;
-
 }
 .indexParagraph {
   text-align: center;
@@ -50,4 +54,5 @@ body {
 } */
 .vesika {
   border-radius: 100%;
+  margin: 2% auto auto auto;
 }

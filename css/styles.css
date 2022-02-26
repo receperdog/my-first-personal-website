@@ -7,11 +7,23 @@ body {
   padding-bottom: 50px;
   padding-left: 80px;
 }
-.indexParagraph {
-  color: #0f0e0e;
+.aboutMe {
+  margin: 2% auto auto auto;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 2%;
+  border: 1px dotted gray;
+  border-width: 6px;
+}
+.aboutMe:hover{
+  background-color: black;
+  color: white;
+  padding: 2%;
+  border: 1px dotted white;
+  border-width: 6px;
+
+}
+.indexParagraph {
+  text-align: center;
 }
 .table {
   margin-left: auto;
@@ -27,12 +39,15 @@ body {
   display: inline-block;
   font-size: 16px;
 }
-hr {
+.button:hover {
+  background-color: red;
+}
+/* hr {
   border-style: dotted none none;
   border-color: grey;
-  border-width: 5px;
-  width: 30%;
-}
+  border-width: 6px;
+  width: auto;
+} */
 .vesika {
   border-radius: 100%;
 }
